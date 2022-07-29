@@ -1,0 +1,23 @@
+{
+  "name": "string.prototype.toradixof",
+  "version": "0.1.0",
+  "description": "Get the RadixOf any string in an array.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \" No Automatic test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okpalan/string.prototype.toradixof.git"
+  },
+  "keywords": [
+    "toradixof",
+    "string.prototype"
+  ],
+  "author": "Nnamdi Michael Okpala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okpalan/string.prototype.toradixof/issues"
+  },
+  "homepage": "https://github.com/okpalan/string.prototype.toradixof#readme"
+}
