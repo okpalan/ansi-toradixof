@@ -1,6 +1,11 @@
+// close all unclosed modules
 ; (function (global) {
     'use strict';
-
+    const hasOwnProperty = Object.prototype.hasOwnProperty;
+    /**
+     * @function isWindow // check if an object is the window
+     */
+    const isWindow = (obj) = obj.self == obj;
     // For default imports 
     Object.defineProperty(exports, "__esModule", {
         value: true
@@ -18,7 +23,7 @@
             .map(c => c.charCodeAt(0))
     }
     /**
-     * @function exports.default 
+     *  
      * @param {} str  // The string to convert base of the radix
      * @param {*} radix // a number to cast the string
      * @param {*} type the return type of the ansi-toradix
@@ -39,6 +44,12 @@
         define([], exports["default"]);
 
     } else if (typeof module == "object" && module.exports) {
-        module.exports = exports["default"]
+
+        module.exports = exports["default"];
+    }
+    // Don't Pollute the global namespace unless 
+    //it is a browser without default imports/exports
+    else if (!hasOwnProperty.call(exports, '__esModule') && isWindow(obj) ) {
+        global.toRadixOf = exports["default"];
     }
 })(this)

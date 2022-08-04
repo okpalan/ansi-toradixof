@@ -1,5 +1,5 @@
 {
-  "name": "string.prototype.toradixof",
+  "name": "ansi-toradixof",
   "version": "0.1.0",
   "description": "Get the RadixOf any string in an array.",
   "main": "index.js",
