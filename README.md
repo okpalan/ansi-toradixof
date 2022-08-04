@@ -1,8 +1,8 @@
-# String.prototype.toRadixOf
-### Get the RadixOf any string in an array.
-
+# ansi-toradixof
+## Get the ASCII Representation of any string
+## given a radix of 2 to 36
 
 ```js
-    var greeting = "Hello World";
-    console.log(greeting.toRadixOf(2));
+    var saying = 'Hell is a place for no man';
+    
 ```

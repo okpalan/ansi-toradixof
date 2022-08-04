@@ -2,7 +2,7 @@
   "name": "string.prototype.toradixof",
   "version": "0.1.0",
   "description": "Get the RadixOf any string in an array.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \" No Automatic test specified\""
   },
